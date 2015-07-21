@@ -5,10 +5,8 @@
 var path = require('path')
 
 var dir = {
-  public: path.join(__dirname, '../../public'),
   media: path.join(__dirname, '../../appdata/media'),
-  logs: path.join(__dirname, '../../appdata/logs'),
-  assets: path.join(__dirname, '../../public/assets')
+  logs: path.join(__dirname, '../../appdata/logs')
 }
 
 module.exports = dir
